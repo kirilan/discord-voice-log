@@ -1,0 +1,16 @@
+[project]
+name = "discord-voice-log"
+version = "0.1.0"
+description = "Discord bot that posts voice channel joins and leaves to a log channel"
+requires-python = ">=3.12"
+dependencies = [
+    "discord-py>=2.4",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+discord-voice-log = "discord_voice_log:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
