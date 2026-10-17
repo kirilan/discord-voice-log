@@ -188,3 +188,7 @@ sudo systemctl daemon-reload
 | Every event is posted twice | Two copies of the bot are running, for example the service plus one started with `uv run`. Stop one of them. |
 | The service keeps restarting | Run `journalctl -u discord-voice-log -n 50` and look up the error in this table. |
 | Your server isn't in the invite dropdown | You need **Manage Server** on that server. Ask an admin to open the link instead. |
+
+## License
+
+Licensed under the GNU General Public License v3.0 or later. See [LICENSE](LICENSE).
